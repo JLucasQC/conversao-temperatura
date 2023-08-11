@@ -7,7 +7,7 @@ jobs:
   CI:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/chekout@v2
+      - uses: actions/checkout@v2
       - name: Setup do NodeJS
         uses: actions/setup-node@v3.7.0
         with: 
